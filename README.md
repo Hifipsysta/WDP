@@ -19,4 +19,4 @@ In addition, we derive a general privacy accounting method called Wasserstein ac
 
 ## Paper
 
-We will upload the paper on arXiv.org e-Print archive, and the mainpaper and appendix are both available in this version. 
+We will upload the paper on arXiv.org e-Print archive, and the main paper and appendix are both available in this version. 
