@@ -20,3 +20,13 @@ In addition, we derive a general privacy accounting method called Wasserstein ac
 ## Paper
 
 We will upload the paper on arXiv.org e-Print archive, and the main paper and appendix are both available in this version. 
+
+
+## Cite
+~~~
+@proceedings{yang2024wasserstein,
+  title={Wasserstein Differential Privacy},
+  author={Chengyi Yang, Jaiyin Qi, Aimin Zhou},
+  journal={AAAI},
+  year={2024}
+}
