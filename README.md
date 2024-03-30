@@ -1,6 +1,8 @@
 ## Wasserstein Differential Privacy
+This is the official PyTorch implementation for "Wasserstein Differential Privacy" [AAAI 2024](https://arxiv.org/pdf/2401.12436.pdf).
 
-*Abstract: Differential privacy (DP) has achieved remarkable results in the field of privacy-preserving machine learning. However, existing DP frameworks do not satisfy all the conditions for becoming metrics, which prevents them from deriving better basic private properties and leads to exaggerated values on privacy budgets. We propose Wasserstein differential privacy (WDP), an alternative DP framework to measure the risk of privacy leakage, which satisfies the properties of symmetry and triangle inequality. We show and prove that WDP has 13 excellent properties, which can be theoretical supports for the better performance of WDP than other DP frameworks. 
+### Abstract
+*Differential privacy (DP) has achieved remarkable results in the field of privacy-preserving machine learning. However, existing DP frameworks do not satisfy all the conditions for becoming metrics, which prevents them from deriving better basic private properties and leads to exaggerated values on privacy budgets. We propose Wasserstein differential privacy (WDP), an alternative DP framework to measure the risk of privacy leakage, which satisfies the properties of symmetry and triangle inequality. We show and prove that WDP has 13 excellent properties, which can be theoretical supports for the better performance of WDP than other DP frameworks. 
 In addition, we derive a general privacy accounting method called Wasserstein accountant, which enables WDP to be applied in stochastic gradient descent (SGD) scenarios containing subsampling. Experiments on basic mechanisms, compositions and deep learning show that the privacy budgets obtained by Wasserstein accountant are relatively stable and less influenced by order. Moreover, the overestimation or even explosion on privacy budgets can be effectively alleviated.*
 
 ### Requirements
@@ -17,16 +19,15 @@ In addition, we derive a general privacy accounting method called Wasserstein ac
 
     python main_CIFAR.py
 
-## Paper
-
-We will upload the paper on arXiv.org e-Print archive, and the main paper and appendix are both available in this version. 
-
-
-## Cite
+### How to Cite
 ~~~
-@proceedings{yang2024wasserstein,
-  title={Wasserstein Differential Privacy},
-  author={Chengyi Yang, Jaiyin Qi, Aimin Zhou},
-  journal={AAAI},
-  year={2024}
+@inproceedings{yang2024wasserstein,
+  author       = {Chengyi Yang and
+                  Jiayin Qi and
+                  Aimin Zhou},
+  title        = {Wasserstein Differential Privacy},
+  booktitle    = {Thirty-Eighth {AAAI} Conference on Artificial Intelligence},
+  pages        = {16299--16307},
+  year         = {2024},
+  doi          = {10.1609/AAAI.V38I15.29565},
 }
