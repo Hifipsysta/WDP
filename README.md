@@ -1,5 +1,5 @@
 ## Wasserstein Differential Privacy
-This is the official PyTorch implementation for "Wasserstein Differential Privacy" [AAAI 2024](https://arxiv.org/pdf/2401.12436.pdf).
+This is the official PyTorch implementation for "[Wasserstein Differential Privacy](https://arxiv.org/pdf/2401.12436.pdf)" [AAAI 2024].
 
 ### Abstract
 *Differential privacy (DP) has achieved remarkable results in the field of privacy-preserving machine learning. However, existing DP frameworks do not satisfy all the conditions for becoming metrics, which prevents them from deriving better basic private properties and leads to exaggerated values on privacy budgets. We propose Wasserstein differential privacy (WDP), an alternative DP framework to measure the risk of privacy leakage, which satisfies the properties of symmetry and triangle inequality. We show and prove that WDP has 13 excellent properties, which can be theoretical supports for the better performance of WDP than other DP frameworks. 
